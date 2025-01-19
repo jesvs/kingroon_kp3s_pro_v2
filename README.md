@@ -250,7 +250,8 @@ make ARCH=arm64
 Check if compiled module works:
 ```bash
 
-rmmod r8723bs &&
+rmmod r8723bs ;
+modprobe cfg80211 ;
 insmod 8723bs.ko
 ```
 
