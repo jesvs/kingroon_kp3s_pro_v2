@@ -240,7 +240,7 @@ EOF'
 Compile and install new driver [Armbian documentation](https://docs.armbian.com/User-Guide_Advanced-Features/#how-to-build-a-wireless-driver):
 ```bash
 
-apt-get install -y libelf-dev &&
+apt-get install -y libelf-dev libssl-dev &&
 dpkg -i /root/linux-headers*.deb && 
 git clone https://github.com/youling257/rockchip_wlan &&
 cd rockchip_wlan/rtl8723bs &&
